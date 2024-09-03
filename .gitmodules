@@ -13,3 +13,6 @@
 [submodule "libs/Catch2"]
 	path = libs/Catch2
 	url = https://github.com/catchorg/Catch2.git
+[submodule "libs/origin"]
+	path = libs/origin
+	url = https://github.com/asutton/origin.git
