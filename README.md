@@ -1,36 +1,11 @@
-[![C++ Crash Course](http://ccc.codes/cppcc.png "C++ Crash Course")](http://ccc.codes/)
+# README
 
-# Get the Book
+This is a clone of <https://github.com/JLospinoso/ccc> that allows you work with the code in VS Code.
 
-[C++ Crash Course is currently available at No Starch Press.](https://nostarch.com/cppcrashcourse)
+The cool stuff happens in the .vscode folder.
 
-# Install Software
+To use,
 
-1. Follow the instructions in Chapter 1 for setting up a development environment.
-2. [Download and install CMake](https://cmake.org/download/)
-3. [Download and install Boost](https://www.boost.org/doc/libs/1_68_0/more/getting_started/index.html)
-4. [Download and install Git](https://git-scm.com/downloads)
+- Read this: <https://code.visualstudio.com/docs/cpp/config-msvc#_prerequisites>
 
-# Build the Examples
-
-[![Docker Repository on Quay](https://quay.io/repository/jlospinoso/ccc/status "Docker Repository on Quay")](https://quay.io/repository/jlospinoso/ccc)
-
-First, clone this repository:
-
-```
-git clone git@github.com:JLospinoso/ccc
-```
-
-Next, perform an [out-of-source CMake build](https://gitlab.kitware.com/cmake/community/wikis/home). For example:
-
-```
-cd ccc
-git submodule init
-git submodule update
-mkdir build
-cd build
-cmake ..
-cmake --build .
-```
-
-Your build directory should now contain requisite files for building on your current platform. On Windows, for example, you should find a `.sln` Visual Studio Solution file. On macOS/Linux, you should find a `make` file.
+- Open the TLD "ccc", navigate to a file you want to run and hit F5.
